@@ -30,17 +30,6 @@
         android:width="300dp" />
 
     <TextView
-        android:id="@+id/tViewIntro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
-        android:text="Bem Vindo!"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="50sp" />
-
-    <TextView
         android:id="@+id/tViewSaldo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,5 +37,16 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="42dp"
         android:text="Seu saldo atual é de: " />
+
+    <TextView
+        android:id="@+id/tViewIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btNova"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:text="Bem Vindo!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
 
 </RelativeLayout>

@@ -24,6 +24,7 @@ public final class R {
         public static final int fundo=0x7f020000;
         public static final int ic_launcher=0x7f020001;
         public static final int marmots=0x7f020002;
+        public static final int splash=0x7f020003;
     }
     public static final class id {
         public static final int action_settings=0x7f080013;
@@ -36,8 +37,8 @@ public final class R {
         public static final int data=0x7f080007;
         public static final int desc=0x7f08000a;
         public static final int listView1=0x7f08000f;
-        public static final int tViewIntro=0x7f080002;
-        public static final int tViewSaldo=0x7f080003;
+        public static final int tViewIntro=0x7f080003;
+        public static final int tViewSaldo=0x7f080002;
         public static final int testiculose=0x7f08000e;
         public static final int textView1=0x7f08000b;
         public static final int textView2=0x7f08000c;
@@ -52,6 +53,7 @@ public final class R {
         public static final int cadastro=0x7f030001;
         public static final int notificacoes=0x7f030002;
         public static final int ocult_img=0x7f030003;
+        public static final int splashscreen=0x7f030004;
     }
     public static final class menu {
         public static final int tela__principal=0x7f070000;

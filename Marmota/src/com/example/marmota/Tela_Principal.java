@@ -1,5 +1,3 @@
-
-
 package com.example.marmota;
 
 import android.os.Bundle;
@@ -27,8 +25,8 @@ public class Tela_Principal extends Activity {
 		btNovaClick(); //Chama a função btNovaclick
 		TIntroClick();
 		btNtfClick();
-		
-		}
+		//TNome.setText("Bem-Vindo " + addNomeUsuario() + "!");
+	}
 	
 		
 		public void btNovaClick(){

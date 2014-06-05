@@ -38,7 +38,7 @@ public class Cadastro extends Activity {
 		DatadoSistema();
 		btvalorClick();
 		//experimental
-		btInserir();
+		btAdd();
 		//------
 		btNotfClick();//faz nada
 		
@@ -145,7 +145,7 @@ public void mensagem(String titulo, String mens){
 	msg.show();
 }
 
-//Instnaica a classe BANCO
+//Instnaica a classa BANCO
 public Object ChamaBanco(){
 	try{
 		Banco bd = new Banco();
@@ -160,7 +160,7 @@ public Object ChamaBanco(){
 	return false;
 }
 //Exeperimentos ----------------------------------------------	
- public void InsertBanco(){
+ public void ClasseBancoInsert(){
 	txtData = (EditText)findViewById(R.id.data);
 	txtDsc = (EditText)findViewById(R.id.desc);
 	txtValor = (EditText)findViewById(R.id.txtValor);
@@ -178,13 +178,13 @@ public Object ChamaBanco(){
 		
 }
 
-public void btInserir(){
-	Button btIns = (Button)findViewById(R.id.testiculose);
-	btIns.setOnClickListener(new View.OnClickListener() {
+public void btAdd(){
+	Button add = (Button)findViewById(R.id.testiculose);
+	add.setOnClickListener(new View.OnClickListener() {
 		
 		@Override
 		public void onClick(View v) {
-		InsertBanco();
+		ClasseBancoInsert();
 			
 		}
 	});
