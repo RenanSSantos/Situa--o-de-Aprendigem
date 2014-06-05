@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="26dp"
+            android:layout_marginLeft="29dp"
+            android:text="Voltar" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Nova Conta"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtValor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/data"
+            android:layout_below="@+id/textView4"
+            android:layout_toLeftOf="@+id/btvalor"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btvalor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtValor"
+            android:layout_alignBottom="@+id/txtValor"
+            android:layout_toRightOf="@+id/textView3"
+           android:text="+" />
+
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/desc"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="149dp"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/desc"
+            android:layout_alignLeft="@+id/btVoltar"
+            android:layout_marginBottom="18dp"
+            android:text="Descrição:" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/data"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_marginBottom="53dp"
+            android:text="Data:" />
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_alignLeft="@+id/textView1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/data"
+            android:layout_below="@+id/data"
+            android:text="Valor:" />
+
+        <Button
+            android:id="@+id/btNotf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btVoltar"
+            android:layout_alignBottom="@+id/btVoltar"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="Notificações" />
+
+        <Button
+            android:id="@+id/testiculose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btNotf"
+            android:layout_alignBottom="@+id/btNotf"
+            android:layout_toRightOf="@+id/txtValor"
+            android:text="Concluir" />
+
+    </RelativeLayout>
+
+   
+
+</LinearLayout>
